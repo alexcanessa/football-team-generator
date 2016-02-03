@@ -1,0 +1,105 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.pitch
+{
+	width: 400px;
+	height: 500px;
+	box-shadow: inset 0 0 10px rgba(0,0,0,.5);
+	margin: 0 auto;
+	background: green;
+	transform: perspective(100px) rotate3d(1, 0, 0, 8deg);
+	position: relative;
+	overflow: hidden;
+	border: 20px solid #ccc;
+}
+
+.pitch:before,
+.pitch:after
+{
+	content: "";
+	width: 400px;
+	height: 200px;
+	border: 10px solid #FFF;
+	border-radius: 100%;
+	position: absolute;
+	top: -150px;
+}
+
+.pitch:after
+{
+	top: auto;
+	bottom: -150px;
+}
+
+.team
+{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+}
+
+.team ul > li
+{
+	margin-top: 30px;
+	width: 33%;
+	display: inline-block;
+	height: 30px;
+	color: #fff;
+	box-shadow: 3px -4px 10px rgba(0, 0, 0, .4);
+	transform: perspective(30px) rotate3d(1, 0, 0, -8deg);
+}
+
+.team1
+{
+	border-bottom: 5px solid #FFF;
+}
+
+.team1 ul > li
+{
+	background: blue;
+}
+
+.team2 ul > li
+{
+	background: red;
+}
+
+.team1 ul
+{
+	margin-top: 40px;
+}
+
+.team2
+{
+	top: 50%;
+}
+
+.team1:after
+{
+	content: "";
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background: #FFF;
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	transform: translate(-50%, -40%);
+}
+
+.reload-teams
+{
+	text-decoration: none;
+	color: green;
+	background: white;
+	padding: 10px 15px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	border: 3px solid darkgreen;
+}
