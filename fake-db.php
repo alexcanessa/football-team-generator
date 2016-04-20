@@ -9,6 +9,7 @@
 			'defence' => 10
 		]
 	);
+	*/
 	$qumber = new Player(
 		'Qumber',
 		[
@@ -16,7 +17,6 @@
 			'defence' => 7
 		]
 	);
-	*/
 
 	$kevin = new Player(
 		'Kevin',
@@ -93,7 +93,7 @@
 	$sam = new Player(
 		'Sam',
 		[
-			'attack' => 6,
+			'attack' => 7,
 			'defence' => 6
 		]
 	);
