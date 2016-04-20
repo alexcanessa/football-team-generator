@@ -1,4 +1,31 @@
 <?php
+	/*
+	Injured players
+
+	$ian = new Player(
+		'Ian',
+		[
+			'attack' => 10,
+			'defence' => 10
+		]
+	);
+	$qumber = new Player(
+		'Qumber',
+		[
+			'attack' => 8,
+			'defence' => 7
+		]
+	);
+	*/
+
+	$kevin = new Player(
+		'Kevin',
+		[
+			'attack' => 6,
+			'defence' => 5
+		]
+	);
+
 	$alex = new Player(
 		'Alex',
 		[
@@ -7,19 +34,19 @@
 		]
 	);
 
-	$ian = new Player(
-		'Ian',
-		[
-			'attack' => 10,
-			'defence' => 9
-		]
-	);
-
 	$dom = new Player(
 		'Dom',
 		[
 			'attack' => 7,
 			'defence' => 6
+		]
+	);
+
+	$liam = new Player(
+		'Liam',
+		[
+			'attack' => 8,
+			'defence' => 8
 		]
 	);
 
@@ -39,27 +66,19 @@
 		]
 	);
 
-	$qumber = new Player(
-		'Qumber',
-		[
-			'attack' => 8,
-			'defence' => 7
-		]
-	);
-
 	$ed = new Player(
 		'Ed',
 		[
-			'attack' => 4,
-			'defence' => 3
+			'attack' => 6,
+			'defence' => 4
 		]
 	);
 
-	$rolf = new Player(
-		'Rolf',
+	$katy = new Player(
+		'Katy',
 		[
-			'attack' => 2,
-			'defence' => 2
+			'attack' => 6,
+			'defence' => 6
 		]
 	);
 
@@ -75,7 +94,7 @@
 		'Sam',
 		[
 			'attack' => 6,
-			'defence' => 5
+			'defence' => 6
 		]
 	);
 
@@ -87,6 +106,37 @@
 		]
 	);
 
+	$alun = new Player(
+		'Alun',
+		[
+			'attack' => 5,
+			'defence' => 5
+		]
+	);
+
+	$maurice = new Player(
+		'Maurice',
+		[
+			'attack' => 5,
+			'defence' => 5
+		]
+	);
+
+	$don = new Player(
+		'Don',
+		[
+			'attack' => 2,
+			'defence' => 4
+		]
+	);
+
+	$lilben = new Player(
+		'Lil Ben',
+		[
+			'attack' => 6,
+			'defence' => 4
+		]
+	);
 
 	$null = new Player(
 		'Empty',
