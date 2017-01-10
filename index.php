@@ -12,13 +12,14 @@
 		require_once('core/TeamMaker.php');
 		require_once('fake-db.php');
 
-		$players = [$alex, $ian, $dom, $ed, $rolf, $hunt, $aurelio, $ben, $sam, $patrick];
+		$players = [$alex, $hunt, $ben, $patrick, $sam, $aurelio, $don, $dom, $mikeVF, $robPC, $alun, $katy];
 		
 		shuffle($players);
 
 		$teamMaker = new TeamMaker($players);
 		$teams = $teamMaker->makeTeams();
 	?>
+
 	     <div class="pitch">
 	     	<div class="team team1">
 	     		<h2>Attack: <?=$teams[0]->level()['attack'];?> | Defence: <?=$teams[0]->level()['defence'];?> </h2>

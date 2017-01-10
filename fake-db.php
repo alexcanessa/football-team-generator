@@ -9,7 +9,7 @@
 			'defence' => 10
 		]
 	);
-	*/
+	
 	$qumber = new Player(
 		'Qumber',
 		[
@@ -17,12 +17,22 @@
 			'defence' => 7
 		]
 	);
-
-	$kevin = new Player(
-		'Kevin',
+	
+	$maurice = new Player(
+		'Maurice',
 		[
-			'attack' => 6,
+			'attack' => 5,
 			'defence' => 5
+		]
+	);
+
+	*/
+
+	$dom = new Player(
+		'Dom',
+		[
+			'attack' => 7,
+			'defence' => 6
 		]
 	);
 
@@ -31,14 +41,6 @@
 		[
 			'attack' => 8,
 			'defence' => 8
-		]
-	);
-
-	$dom = new Player(
-		'Dom',
-		[
-			'attack' => 7,
-			'defence' => 6
 		]
 	);
 
@@ -54,14 +56,14 @@
 		'Ben',
 		[
 			'attack' => 9,
-			'defence' => 8
+			'defence' => 9
 		]
 	);
 
 	$patrick = new Player(
 		'Patrick',
 		[
-			'attack' => 9,
+			'attack' => 10,
 			'defence' => 8
 		]
 	);
@@ -70,7 +72,7 @@
 		'Ed',
 		[
 			'attack' => 6,
-			'defence' => 4
+			'defence' => 5
 		]
 	);
 
@@ -101,21 +103,13 @@
 	$hunt = new Player(
 		'Alex H',
 		[
-			'attack' => 4,
-			'defence' => 5
+			'attack' => 5,
+			'defence' => 4
 		]
 	);
 
 	$alun = new Player(
 		'Alun',
-		[
-			'attack' => 5,
-			'defence' => 5
-		]
-	);
-
-	$maurice = new Player(
-		'Maurice',
 		[
 			'attack' => 5,
 			'defence' => 5
@@ -130,11 +124,19 @@
 		]
 	);
 
-	$lilben = new Player(
-		'Lil Ben',
+	$mikeVF = new Player(
+		'Mike',
+		[
+			'attack' => 5,
+			'defence' => 5
+		]
+	);
+
+	$robPC = new Player(
+		'Rob',
 		[
 			'attack' => 6,
-			'defence' => 4
+			'defence' => 6
 		]
 	);
 
